@@ -252,7 +252,7 @@ def convert_ranking(ranking,reverse=False):
 
 def plot_coefs(lambdas,coefs):
 	ax = plt.gca()
-	ax.set_color_cycle(['b', 'r', 'g', 'c', 'k', 'y', 'm'])
+	ax.set_prop_cycle('color',['b', 'r', 'g', 'c', 'k', 'y', 'm'])
 	ax.plot(lambdas, coefs)
 	lineObjects = ax.plot(lambdas, coefs)
 	ax.set_xscale('log')	
