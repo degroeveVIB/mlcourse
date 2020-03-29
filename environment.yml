@@ -15,7 +15,6 @@ dependencies:
   - defusedxml=0.6.0
   - entrypoints=0.3
   - freetype=2.9.1
-  - icc_rt=2019.0.0
   - icu=58.2
   - importlib_metadata=1.5.0
   - intel-openmp=2020.0
@@ -48,7 +47,6 @@ dependencies:
   - mkl-service=2.3.0
   - mkl_fft=1.0.15
   - mkl_random=1.1.0
-  - msys2-conda-epoch=20160418
   - nbconvert=5.6.1
   - nbformat=5.0.4
   - notebook=6.0.3
@@ -90,13 +88,11 @@ dependencies:
   - tornado=6.0.4
   - traitlets=4.3.3
   - vc=14.1
-  - vs2015_runtime=14.16.27012
   - wcwidth=0.1.8
   - webencodings=0.5.1
   - wheel=0.34.2
   - widgetsnbextension=3.5.1
   - wincertstore=0.2
-  - winpty=0.4.3
   - zeromq=4.3.1
   - zipp=2.2.0
   - zlib=1.2.11
